@@ -1,0 +1,77 @@
+/* Estilização geral da calculadora */
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Estilo da exibição do resultado */
+  .display {
+    margin: auto auto 20px auto;
+    width: 240px;
+    height: 40px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+
+  
+  /* Estilo dos botões */
+  .button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilo dos botões numéricos */
+  .number {
+    background-color: #fff;
+  }
+  
+  /* Estilo do botão de ponto decimal */
+  .decimal {
+    background-color: #d9d9d9;
+  }
+  
+  /* Estilo do botão de igualdade */
+  .equals {
+    background-color: #ff9933;
+    color: #fff;
+  }
+  
+  /* Estilo do botão C */
+  .clear {
+    background-color: #d9d9d9;
+  }
+  
+  /* Estilo do botão de apagar */
+  .backspace {
+    background-color: #d9d9d9;
+  }
+  
+  /* Estilo dos botões de operadores */
+  .operator {
+    background-color: #ff9933;
+    color: #fff;
+  }
+  
+  /* Estilização do botão ativo */
+  button:active {
+    transform: scale(0.9);
+  }

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto
+  }
+
+  .box {
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+  }
+
+  .winner-message {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .play-again-btn {
+    display: none;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto auto auto;
+  }
+  
+  .play-again-btn.show {
+    display: block;
+  }

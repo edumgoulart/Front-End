@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#logoSite {
+    display: flex;
+    align-items: center;
+}
+
+#pato {
+    width: 100px;
+    height: auto;
+    position: relative;
+    right: 10%;
+}
+
+.mainSection {
+    width: 50%;
+    background-color: rgb(231, 231, 231);
+    margin: 10px auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+
+}
+
+section > p {
+    text-align: justify;
+}

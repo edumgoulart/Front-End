@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+      <div class="box" id="box4"></div>
+      <div class="box" id="box5"></div>
+      <div class="box" id="box6"></div>
+      <div class="box" id="box7"></div>
+      <div class="box" id="box8"></div>
+      <div class="box" id="box9"></div>
+    </div>
+  </body>
+  <script>
+    const boxes = document.querySelectorAll('.box');
+    let player1 = true;
+
+    for (const box of boxes) {
+      box.addEventListener('click', function() {
+        if (player1 && box.textContent === '') {
+          box.textContent = 'X';
+          player1 = false;
+        } else if (!player1 && box.textContent === '') {
+          box.textContent = 'O';
+          player1 = true;
+        }
+      });
+    }
+  </script>
+</html>

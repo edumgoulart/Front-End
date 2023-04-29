@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+:root {
+    --color0:#b3f3d0;
+    --color1:#83E1AD;
+    --color2:#3DDC84;
+    --color3:#2FA866;
+    --color4:#1A5C37;
+    --color5:#355C47;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+header {
+    background: linear-gradient(to top, var(--color4), var(--color3));
+    margin: 0px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: var(--color4);
+    padding: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+}
+
+nav > a:hover{
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+main {
+    background-color: var(--color1);
+}
+
+article{
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    font-family: 'idroid', Times, serif;
+    color: var(--color4);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'idroid', Times, serif;
+    color: var(--color4);
+    background: linear-gradient(to right, var(--color1), white);
+}
+
+p{
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+picture > img {
+    width: 100%;
+}
+
+#divIframe {
+    background-color: var(--color4);
+    padding: 10px;
+    margin: 10px -20px;
+    position: relative;
+    padding-bottom: 58%;
+
+}
+
+iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+
+}
+
+article > p > a, article > p > strong {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+h4 {
+    color: white;
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#asideDiv {
+    background-color: var(--color0);
+    padding: 10px;
+    border-radius: 0px 0px 8px 8px;
+
+}
+
+ul {
+    list-style-position: inside;
+    margin: 10px 0px;
+    columns: 2;
+}
+
+
+footer {
+    padding: 4px;
+    background-color: var(--color4);
+}
+
+footer > p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
