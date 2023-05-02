@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>To-Do List</h1>
-    <input type="text" id="meuInput" onkeydown="verificarEnter(event)">
-    <div id="resultado"></div>
+    <main>
+        <h1>to-do</h1>
+        <input type="text" id="meuInput" onkeydown="verificarEnter(event) " placeholder="Write your to-do">
+        <div id="resultado"></div>
+        <p id="instruction">Left click to mark as complete. <br>
+            Right click to delete to-do.</p>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
