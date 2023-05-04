@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --color1: #f44336;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*START OF HEADER*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logoItem {
+    color: var(--color1);
+}
+
+.logo > i {
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.logo > h1 {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.fa-search {
+    font-size: 1em;
+    color: gray;
+}
+
+/*END OF HEADER*/
+
+/*START OF SECTION OF TRAVEL SEARCH*/
+
+.inputSection {
+    background-image: url('imagens/london.jpg');
+    background-size: cover;
+    padding-top: 22%;
+    padding-bottom: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.inputNavAndDiv {
+    position: absolute;
+}
+
+
+
+.inputNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+    background-color: #000000;
+    padding: 10px;
+}   
+
+#flightDiv {
+    background-color: var(--color1);
+}
+
+#flightDiv i {
+    rotate: -45rad;
+}
+
+.navDiv i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.navDiv p {
+    color: #ffffff;
+}
+
+
+
+.inputDiv {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.inputDiv p {
+    font-size: 1.3em;
+    margin: 15px 0px;
+}
+
+.labelAndInput {
+    columns: 2;
+}
+
+.inputDiv label {
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.inputDiv input {
+    display: block;
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.inputDiv button {
+    padding: 10px;
+    color: #ffffff;
+    background-color: gray;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/*END OF SECTION OF TRAVEL SEARCH*/
