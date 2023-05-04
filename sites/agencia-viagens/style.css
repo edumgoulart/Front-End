@@ -2,12 +2,17 @@
 
 :root{
     --color1: #f44336;
+    --color2: #ff6c62;
 }
 
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+body {
+    background-color: #f3f3f3;
 }
 
 /*START OF HEADER*/
@@ -61,8 +66,6 @@ header {
 .inputNavAndDiv {
     position: absolute;
 }
-
-
 
 .inputNav {
     display: flex;
@@ -128,7 +131,7 @@ header {
 .inputDiv button {
     padding: 10px;
     color: #ffffff;
-    background-color: gray;
+    background-color: #5a5a5a;
     border: none;
     margin-bottom: 20px;
 }
@@ -154,7 +157,7 @@ header {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 242.5px);
-    grid-template-rows: 190px 190px;
+    grid-template-rows: 195px 195px;
     gap: 10px;
 }
 
@@ -181,3 +184,118 @@ header {
 }
 
 /*END OF SECTION GOOD OFFERS*/
+
+/*START OF SECTION EXPLORE NATURE*/
+
+.travelGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 495px);
+    grid-template-rows: 400px;
+    gap: 10px;
+}
+
+.travelDiv {
+    background-color: #ffffff;
+}
+
+.travelDiv img {
+    width: 100%;
+    height: 60%;
+}
+
+.travelDiv h2{
+    margin: 10px;
+}
+
+.travelDiv p{
+    margin: 10px;
+    font-size: 0.9em;
+}
+
+.price{
+    color: #ccc;
+}
+
+#buyTickets {
+    margin: 20px;
+    text-indent: 20px;
+    font-size: 1em;
+}
+
+/*END OF SECTION EXPLORE NATURE*/
+
+/*START OF SECTION BEST OFFERS FIRST*/
+
+.offersFirstDiv {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #5a5a5a;
+}
+
+.offersFirstDiv h2 {
+    color: #ffffff;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.offersFirstDiv p {
+    font-size: 0.9em;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.offersFirstDiv label {
+    color: #ffffff;
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+}
+
+.offersFirstDiv input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.offersFirstDiv button {
+    color: #ffffff;
+    background-color: var(--color2);
+    border: none;
+    padding: 10px;
+}
+
+/*END OF SECTION BEST OFFERS FIRST*/
+
+/*START OF CONTACT*/
+
+.contactDiv{
+    width: 1000px;
+    margin: auto;
+}
+
+.contactDiv h2 {
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.contactDiv p {
+    margin: 10px 0;
+}
+
+.contactInformations {
+    display: flex;
+    align-items: center;
+}
+
+.contactInformations p {
+    margin: 5px 20px;
+}
+
+.contactInformations i {
+    width: 16px;
+}
+
+/*END OF CONTACT*/
