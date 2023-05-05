@@ -298,4 +298,33 @@ header {
     width: 16px;
 }
 
+.contactDiv input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contactDiv button {
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    padding: 10px 20px;
+
+}
+
 /*END OF CONTACT*/
+
+/*START OF FOOTER*/
+
+footer p {
+    text-align: center;
+    margin: 20px;
+}
+
+.socialMedias {
+    margin: 20px auto;
+    width: fit-content;
+}
+/*END OF FOOTER*/
