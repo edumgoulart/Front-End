@@ -15,6 +15,12 @@ body {
     background-color: #f3f3f3;
 }
 
+@media all and (max-width: 750px) {
+    body {
+        padding: 20px;
+    }
+}
+
 /*START OF HEADER*/
 
 header {
@@ -22,6 +28,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    background-color: #ffffff;
 }
 
 .logo{
@@ -48,6 +55,16 @@ header {
     color: gray;
 }
 
+@media all and (max-width: 1100px) {
+    header {justify-content: space-around;}
+}
+
+@media all and (max-width: 750px) {
+    header {
+        justify-content: space-between;
+        margin: -20px -20px 0 -20px;
+    }
+}
 /*END OF HEADER*/
 
 /*START OF SECTION OF TRAVEL SEARCH*/
@@ -136,6 +153,33 @@ header {
     margin-bottom: 20px;
 }
 
+@media all and (max-width: 1100px) {
+    .inputDiv input {
+        width: 230px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .inputSection {
+        all: initial;
+    }
+    .inputNavAndDiv {
+        position: relative;
+        margin: 0 -20px;
+    }
+    .inputDiv {
+        padding: 10px 20px;
+        margin-bottom: 40px;
+    }
+    .labelAndInput {
+        columns: 1;
+    }
+    .inputDiv input {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
 /*END OF SECTION OF TRAVEL SEARCH*/
 
 /*START OF SECTION GOOD OFFERS*/
@@ -183,6 +227,29 @@ header {
     color: #ffffff;
 }
 
+@media all and (max-width: 1100px) {
+    .flexDiv {
+        width: 700px;
+    }
+
+    .imagesGrid {
+        grid-template-columns: repeat(4, 167.5px);
+        grid-template-rows: 135px 135px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .flexDiv {
+        all: initial;
+    }
+    .imagesGrid {
+        all: initial;
+    }
+    .image {
+        margin-bottom: 20px;
+    }
+}
+
 /*END OF SECTION GOOD OFFERS*/
 
 /*START OF SECTION EXPLORE NATURE*/
@@ -220,6 +287,27 @@ header {
     margin: 20px;
     text-indent: 20px;
     font-size: 1em;
+}
+
+@media all and (max-width: 1100px) {
+    .travelGrid {
+        grid-template-columns: repeat(2, 345px);
+        grid-template-rows: 350px;
+        
+    }
+    .travelDiv img {
+        height: 50%;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .travelGrid {
+        all: initial;
+    }
+    #buyTickets{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 /*END OF SECTION EXPLORE NATURE*/
@@ -267,6 +355,18 @@ header {
     padding: 10px;
 }
 
+@media all and (max-width: 1100px) {
+    .offersFirstDiv {
+        width: 700px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .offersFirstDiv {
+        width: 100%;
+    }
+}
+
 /*END OF SECTION BEST OFFERS FIRST*/
 
 /*START OF CONTACT*/
@@ -312,6 +412,19 @@ header {
     border: none;
     padding: 10px 20px;
 
+}  
+
+@media all and (max-width: 1100px) {
+    .contactDiv {
+        width: 700px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .contactDiv {
+        box-sizing: border-box;
+        width: 100%;
+    }
 }
 
 /*END OF CONTACT*/
