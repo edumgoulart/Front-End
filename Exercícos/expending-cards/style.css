@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridDiv {
+    display: grid;
+    grid-column: 5;
+}
+
+.imageDiv {
+    width: 100px;
+    height: 600px;
+}
+
+#imageDiv1 {
+    background-color: red;
+}
+
+#imageDiv2 {
+    background-color: aqua;
+}
+
+#imageDiv3 {
+    background-color: green;
+}
+
+#imageDiv4 {
+    background-color: blueviolet;
+}
+
+#imageDiv5 {
+    background-color: black;
+}
