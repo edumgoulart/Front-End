@@ -19,11 +19,25 @@ body {
     width: 350px;
 }
 
+.progress{
+    position: relative;
+}
+
 .progressSteps {
     display: flex;
     justify-content: space-between;
     width: 350px;
     margin-bottom: 30px;
+}
+
+.progressBar {
+    position: absolute;
+    top: 14px;
+    left: 2px;
+    z-index: -1;
+    background-color: #d4d4d4;
+    width: 345px;
+    height: 4px;
 }
 
 .step {
